@@ -7,7 +7,7 @@ let person = {
 //     console.log(person[key]);
 // }
 
-// Object.defineProperty(person,"name",{
+// Object.defineProperty(person,"name",{s
 //     writable:true,
 //     value:'zjw',
 // })
@@ -17,3 +17,9 @@ let person = {
 // for (const k of person) {
 //     console.log(k);
 // }
+
+let book = {
+    _year:'2017',
+    edietion:1,
+
+}
